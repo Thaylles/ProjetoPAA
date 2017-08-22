@@ -1,0 +1,5 @@
+LOAD DATA LOCAL INFILE '/home/Adesao.csv'
+INTO TABLE agricultor_termoadesao_municipal_2013
+CHARACTER SET UTF8
+FIELDS TERMINATED BY ';'
+LINES TERMINATED BY '\n'; 
